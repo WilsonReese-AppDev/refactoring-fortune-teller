@@ -1,0 +1,9 @@
+<h1><%= @num_dice%>d<%=@num_faces%></h1>
+
+<ul>
+  <% @array_of_rolls.each do |roll| %>
+    <li>
+      <%= roll %>
+    </li>
+  <% end %>
+</ul>
